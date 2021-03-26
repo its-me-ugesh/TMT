@@ -11,14 +11,14 @@
 	//Headers
 	$to = "its.me.ugesh@gmail.com";
     $subject = 'Contact Us';
-	$headers = "MIME-Version: 1.0\r\n";
-	$headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
+    $headers = "From: noreply@yoursite.com" . "\r\n" .
+               "CC: somebodyelse@example.com";
 	
 	//body message
-	$message = "First Name: ". $name . "<br> Email: ". $email . "<br> Message: " . $message . "";
+	$mes = "First Name: ". $name . "<br> Email: ". $email . "<br> Message: " . $message . "";
 	
 	//Email Send Function
-    $send_email = mail($to, $subject, $message, $headers);
+    $send_email = mail($to, $subject, $mes, $headers);
       
     echo ($send_email) ? '<div class="success">Email has been sent successfully.</div>' : 'Error: Email did not send.';
 }
