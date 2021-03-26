@@ -114,7 +114,6 @@ $(window).on("load", function() {
 
   // AJAX CONTACT FORM SCRIPT (WORKING CONTACT FORM)
 
-//      $.ajax({
   if($('#contact-form').length){
     $('#submit').on("click", function(){
       var o = new Object();
