@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "UTF-8"; 
 /* ==========================================================================
                                 FONTS
 ============================================================================= */
@@ -10,7 +10,7 @@
 2 - RESET CSS
 3 - ABOUT US
 4 - 2 DIFFERENT BLOG PAGES
-5 - BLOG DETAILS PAGE
+5 - BLOG DETAILS PAGE 
 6 - CART PAGE
 7 - CHECKOUT PAGE
 8 - RESTAURANT PAGE
@@ -154,7 +154,7 @@ a {
 }
 
 .bg1 {
-  background-image: url(https://via.placeholder.com/1920x838);
+  background-image: url(../images/bgs/landing4.jpg);
 }
 
 .bg2 {
@@ -265,7 +265,7 @@ a:hover {
 }
 
 .bg1 {
-  background-image: url(https://via.placeholder.com/1920x838);
+  background-image: url(../images/bgs/landing4.jpg);
 }
 
 .bg2 {
