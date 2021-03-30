@@ -726,7 +726,8 @@ header .menu-btn.active span.bar3 {
   -webkit-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
-  background: linear-gradient(93.93deg, #D8AB37 0%, #F18345 100%);
+  background: linear-gradient(45deg, #ffbd55 0%, #F18345 100%);
+/*  background: linear-gradient(45deg, #D8AB37 0%, #F18345 100%);*/
 }
 .responsive-mobile-menu.active {
   opacity: 1;
@@ -883,7 +884,7 @@ header .menu-btn.active span.bar3 {
 
 .services-sec .service {
   overflow: hidden;
-  background: #22262F;
+  background: #090f1f;
   -webkit-border-radius: 10px;
   -ms-border-radius: 10px;
   border-radius: 10px;
